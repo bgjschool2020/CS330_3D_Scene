@@ -73,6 +73,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IncludePath>C:\OpenGL\GLAD;C:\OpenGL\GLEW\include;C:\OpenGL\GLFW\include;$(ProjectDir)meshess\meshess\;C:\OpenGL\glm;$(ProjectDir)meshess\meshess\meshess\stb_image;$(ProjectDir)meshess\meshess\resources\textures;$(SolutionDir);$(IncludePath)</IncludePath>
     <LibraryPath>C:\OpenGL\GLEW\lib\Release\Win32;C:\OpenGL\GLFW\lib-vc2019;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)..\image</OutDir>
+    <TargetName>$(ProjectName)-Debug</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>C:\OpenGL\GLAD;C:\OpenGL\GLEW\include;C:\OpenGL\GLFW\include;$(ProjectDir)meshess\meshess\;C:\OpenGL\glm;$(ProjectDir)meshess\meshess\meshess\stb_image;$(ProjectDir)meshess\meshess\resources\textures;$(SolutionDir);$(IncludePath)</IncludePath>
